@@ -63,12 +63,12 @@
     background: #1893f7;
     border-radius: 5px;
     border-color: #007bff;
-    ;
+    
 }
 
 .first-section {
     width: 100%;
-    padding: 5pc 6pc;
+    padding: 120px 100px;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
@@ -390,7 +390,7 @@
 width: 50%;
 justify-content: space-between;
 text-align: start;
-padding: 120px 85px;
+padding: 120px 100px;
 }
 .eight-left img{
     height: 60px;
@@ -420,24 +420,271 @@ padding: 120px 85px;
     width: 450px;
 }
 .ninth-section{
-    width: 100%;
-    /* display: flex; */
-    /* justify-content: space-between; */
-   
-    background-color: #212529;
-    /* align-items: center; */
-    text-align: center;
+       /* height: 75vh; */
+       width: 100%;
+       /* display: flex; */
+       align-items: center;
+       justify-content: space-between;
+       text-align: center;
+
 }
-.ninth-section img{
-   
-    padding-top: 60px;
+.ninth-section h1{
+
+    font-size: 65px;
+    font-weight: 500;
+    padding: 40px 0px;
+    padding-bottom: 20px;
 }
 .ninth-first{
-    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+   background-color: #fff;
+    padding-left: 100px;
+    flex-wrap: wrap;
+    
+}
+.fd-section{
+    width: 29%;
+    text-align: start;
+    
+}
+.fd-section img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(232, 228, 228);
+
+}
+.fd-section p{
+    font-size: 17px;
+    font-weight: inherit;
+    color: grey;
+}
+.fraud-engineering{
+    width: 29%;
+    text-align: start;
+    margin-left: 20px;
+}
+.fraud-engineering img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(232, 228, 228);
+
+}
+.fraud-engineering p{
+    font-size: 17px;
+    font-weight:inherit;
+    color: grey;
+}
+.rewards-section{
+    width: 29%;
+    text-align: start;
+    margin-left: 20px;
+}
+.rewards-section img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(232, 228, 228);
+
+}
+.rewards-section p{
+    font-size: 17px;
+    font-weight:inherit;
+    color: grey;
+}
+.ten-section{
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    padding: 30px 100px;
+}
+.ten-section h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+}
+.ten-section p{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: inherit;
+    color: gray;
+    padding: 0px 40px;
+}
+.investors-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    padding: 30px 0px;
+}
+.matrix-section{
+    width: 33%;
+    
+}
+.matrix-section img{
+    width: 93%;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.matrix-section img:hover{
+    transform: scale(105%);
+}
+.sequoia-section{
+    width: 33%;
+}
+.sequoia-section img{
+    width: 93%;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.sequoia-section img:hover{
+    transform: scale(105%);
+}
+.humming-section{
+    width: 33%;
+}
+.humming-section img{
+    width: 93%;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.humming-section img:hover{
+    transform: scale(105%);
+}
+.eleventh-section{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c161b;
+    padding: 30px 0px;
+}
+.eleventh-section img{
+    
+    padding: 10px 0px;
+}
+.eleventh-section h1{
+    font-size: 42px;
+    font-weight: 500;
+    color:#007bff;
+}
+.paragraph-sect {
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.paragraph-sect p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+.last-btn{
+    width: 20%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+.last-btn img{
+    height: 40px;
+    padding-left: 10px;
+}
+.eleventh-section h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 30px 0px;
+}
+.all-logo {
+    font-size: 40px;
+    color: #fff;
+}
+.combine-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 130px;
+    background-color: #0c161b;
+}
+.onecard-left{
+    width: 30%;
+}
+.onecard-left h2{
+    color:#fff;
+
+}
+.onecard-left p{
+      font-size: 17px;
+      line-height: 20px;
+      font-weight: 300;
+      color: #007bff;
+      padding: 20px 0px;
+}
+.onecard-middle{
+    width: 33%;
+    padding-left: 90px;
+}
+.onecard-middle h2{
+    color:#fff;
+
+}
+.onecard-middle p{
+      font-size: 17px;
+      line-height: 20px;
+      font-weight: 300;
+      color: #007bff;
+      padding: 20px 0px;
+}
+.onecard-right{
+    width: 33%;
+    padding-left: 50px;
+}
+.onecard-right h2{
+    color:#fff;
+
+}
+.onecard-right p{
+      font-size: 17px;
+      line-height: 20px;
+      font-weight: 300;
+      color: #007bff;
+      padding: 20px 0px;
+}
+.last-section{
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #0c161b;
+    padding-top: 30px;
+}
+.last-section img{
+    width: 30%;
+}
+.last-div{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+.last-div img{
+    width: 60px;
+}
+.last-div p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    padding: 30px 0px;
+    
 }
 @media(max-width : 768px) {
 
     .navigation-bar {
+        width: 100%;
         padding: 0 20px;
 
     }
@@ -518,19 +765,20 @@ padding: 120px 85px;
         width: 400px;
     }
     .fourth-section{
-        width: 485px;
+        
+        width: 540px;
         flex-wrap: wrap-reverse;
     }
     .fourth-left{
-        width: 480px;
-        padding: 0px 30px;
+        width: 100%;
+        /* padding: 0px 30px; */
     }
     .fifth-section{
         display: block;
         flex-wrap: wrap;
     }
     .fifth-left{
-        width: 400px;
+        width: 100%;
     }
     .fifth-right{
         width: 450px;
@@ -540,7 +788,7 @@ padding: 120px 85px;
     .sixth-section{
         display: block;
         flex-wrap: wrap-reverse;
-        width: 480px;
+        width: 100%;
     }
     .sixth-left{
         
@@ -551,6 +799,7 @@ padding: 120px 85px;
     }
     .sixth-right{
         width: 100%;
+        padding: 0px;
 
     }
     .sixth-right video{
@@ -589,4 +838,72 @@ padding: 120px 85px;
     text-align: start;
     padding: 30px;
    }
-}
+   .ninth-section{
+    width: 100%;
+    padding: 0px;
+   }
+   .ninth-first{
+    padding: 10px;
+   }
+   .fd-section{
+    width: 100%;
+    margin-top: 20px;
+   }
+   .fraud-engineering{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+   }
+   .rewards-section{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+   }
+   .ten-section{
+    width: 100%;
+    padding: 0px;
+   }
+   .ten-section h1{
+     padding-top: 70px;
+   }
+   .investors-section{
+    width: 100%;
+   }
+   .matrix-section{
+    width: 100%;
+    padding: 30px 0px;
+   }
+   .sequoia-section{
+    width: 100%;
+    
+   }
+   .humming-section{
+    width: 100%;
+    padding: 30px 0px;
+   }
+   .eleventh-section{
+    width: 100%;
+   }
+   .last-btn{
+    width: 50%;
+   }
+   .combine-section{
+    width: 100%;
+    text-align: center;
+    
+   }
+   .onecard-left{
+    width: 100%;
+   }
+   .onecard-middle{
+    width: 100%;
+    padding: 0px;
+   }
+   .onecard-right{
+    width: 100%;
+    padding: 0px;
+   }
+   .last-section{
+    width: 100%;
+   }
+}  
